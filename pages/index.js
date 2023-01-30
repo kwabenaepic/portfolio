@@ -1,14 +1,14 @@
-import * as React from "react";
-import { Button, Spacer, Card, Text } from "@nextui-org/react";
-import { HomeIcon } from "@heroicons/react/24/solid";
-import { UserIcon } from "../components/UserIcon";
+import Image from "next/image";
 import Link from "next/Link";
+import LeftNav from "../components/LeftNav";
+import LeftPanel from "../components/LeftPanel";
 import RightNav from "../components/RightNav";
+import { Button, Spacer, Card, Text } from "@nextui-org/react";
 
-export default function Home() {
+export default function About() {
   return (
     <div className="container ">
-      <div className="flex flex-row w-screen h-screen ">
+      <div className="flex bg-slate-100 flex-row w-screen h-screen mx-auto">
         <div className="flex flex-1 bg-white ">
           <div className="flex flex-col justify-center items-start p-36 space-y-2 ">
             <div className="text-2xl font-bold ">HI THERE!</div>
@@ -31,11 +31,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-1 ">
-          <div className="bg-red-100 w-full items-center justify-end p-8 flex "></div>
-        </div>
-        <div className="flex items-center  justify-center  ">
-          <RightNav />
+        <div className="flex flex-1 w-full bg-gray-200">
+          <div className="m-2 flex flex-col mt-20 w-full ">
+       
+      
+            <div className="flex items-center justify-center relative">
+              <RightNav />
+            </div>
+       
+          </div>
         </div>
       </div>
     </div>

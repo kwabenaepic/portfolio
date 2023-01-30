@@ -49,7 +49,7 @@ const RightNav = ({children, href }) => {
           </Link>
         </div>
         <div>
-          <Link href="/About" className={currentRoute === '/About' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
+          <Link href="/about" className={currentRoute === '/about' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
             <button
                  onClick={handleClick} 
               type="button"
@@ -60,7 +60,7 @@ const RightNav = ({children, href }) => {
           </Link>
         </div>
         <div>
-          <Link href="/Resume" className={currentRoute === '/Resume' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
+          <Link href="/resume" className={currentRoute === '/resume' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
             <button
               type="button"
               class=""
@@ -70,7 +70,7 @@ const RightNav = ({children, href }) => {
           </Link>
         </div>
         <div>
-          <Link href="Portfolio" className={currentRoute === '/Portfolio' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
+          <Link href="/portfolio" className={currentRoute === '/portfolio' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
             <button
               type="button"
               class=""
@@ -80,7 +80,7 @@ const RightNav = ({children, href }) => {
           </Link>
         </div>
         <div>
-          <Link href="Testimonials" className={currentRoute === '/Testimonials' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
+          <Link href="/testimonials" className={currentRoute === '/testimonials' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
             <button
               type="button"
               class=""
@@ -90,7 +90,7 @@ const RightNav = ({children, href }) => {
           </Link>
         </div>
         <div>
-          <Link href="/Contact" className={currentRoute === '/Contact' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
+          <Link href="/contact" className={currentRoute === '/contact' ? " rounded-full bg-white  hover:bg-yellow-600 p-2 py-3 ": "rounded-full bg-yellow-500  hover:bg-yellow-600 p-2 py-3"}>
             <button
               type="button"
               class=""

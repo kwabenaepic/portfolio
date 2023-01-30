@@ -24,86 +24,99 @@ const LeftNav = ({ children, href }) => {
     <div className=" items-center flex justify-center  text-center mt-20 px-8">
       <div className=" flex flex-col space-y-4 py-3 px-2 rounded-full bg-yellow-500">
         <div className=" ">
-          <Link href="/">    
+          <Link href="/">
+            <p
+              className={
+                currentRoute === "/"
+                  ? "text-white font-bold  hover:text-black  "
+                  : "font-bold  hover:text-white "
+              }
+            >
+              <a>HOME</a>
+            </p>
+          </Link>
+        </div>
+        <div>
+          <Link href="/about">
+            <button onClick={handleClick} type="button" className="">
               <p
                 className={
-                  currentRoute === "/"
-                    ? "text-white font-bold  hover:text-black  "
-                    : "font-bold  hover:text-white "
+                  currentRoute === "/about"
+                    ? "text-white font-bold hover:text-black  "
+                    : "text-black font-bold hover:text-white"
                 }
               >
-                HOME
+                {" "}
+                <a>ABOUT ME</a>
               </p>
-       
-          </Link>
-        </div>
-        <div>
-          <Link
-            href="/About"
-   
-          >
-            <button onClick={handleClick} type="button" className="">
-              <p className={
-              currentRoute === "/About"
-                ? "text-white font-bold hover:text-black  "
-                : "text-black font-bold hover:text-white"
-            }>ABOUT ME</p>
             </button>
           </Link>
         </div>
         <div>
           <Link
-            href="/Resume"
+            href="/resume"
             className={
-              currentRoute === "/Resume"
+              currentRoute === "/resume"
                 ? " text-white font-bold hover:text-black  "
                 : "  text-black font-bold hover:text-white"
             }
           >
             <button type="button" class="">
-              <p className="font-bold">RESUME</p>
+              <p className="font-bold">
+                {" "}
+                <a>RESUME</a>
+              </p>
             </button>
           </Link>
         </div>
         <div>
           <Link
-            href="/Portfolio"
+            href="/portfolio"
             className={
-              currentRoute === "/Portfolio"
+              currentRoute === "/portfolio"
                 ? " text-white font-bold hover:text-black  "
                 : "  text-black font-bold hover:text-white"
             }
           >
             <button type="button" class="">
-              <p className="font-bold">PORTFOLIO</p>
+              <p className="font-bold">
+                {" "}
+                <a>PORTFOLIO</a>
+              </p>
             </button>
           </Link>
         </div>
         <div>
           <Link
-            href="/Testimonials"
+            href="/testimonials"
             className={
-              currentRoute === "/Testimonials"
+              currentRoute === "/testimonials"
                 ? " text-white font-bold hover:text-black  "
                 : "  text-black font-bold hover:text-white"
             }
           >
             <button type="button" class="">
-              <p className="font-bold">TESTIMONIALS</p>
+              <p className="font-bold">
+                {" "}
+                <a>TESTIMONIALS</a>
+              </p>
             </button>
           </Link>
         </div>
         <div>
           <Link
-            href="/Contact"
+            href="/contact"
             className={
-              currentRoute === "/Contact"
+              currentRoute === "/contact"
                 ? " text-white font-bold hover:text-black "
                 : "text-black font-bold hover:text-white"
             }
           >
             <button type="button" class="">
-              <p className="font-bold ">CONTACT</p>
+              <p className="font-bold ">
+                {" "}
+                <a>CONTACT</a>
+              </p>
             </button>
           </Link>
         </div>
