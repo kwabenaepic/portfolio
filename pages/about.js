@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/Link";
-import LeftNav from "../components/LeftNav";
 import LeftPanel from "../components/LeftPanel";
 import RightNav from "../components/RightNav";
 

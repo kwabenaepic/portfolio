@@ -1,6 +1,3 @@
-import { Divider } from "@nextui-org/react";
-import Image from "next/image";
-import Link from "next/Link";
 import LeftPanel from "../components/LeftPanel";
 import RightNav from "../components/RightNav";
 

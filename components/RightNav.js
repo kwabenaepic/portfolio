@@ -7,7 +7,7 @@ import {InboxIcon } from "@heroicons/react/24/solid";
 import { MegaphoneIcon } from "@heroicons/react/24/solid";
 import { BriefcaseIcon } from "@heroicons/react/24/solid";
 import { RocketLaunchIcon } from "@heroicons/react/24/solid";
-import Link from "next/Link";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const RightNav = ({children, href }) => {

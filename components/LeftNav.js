@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { BeakerIcon } from "@heroicons/react/24/solid";
 import { HomeIcon } from "@heroicons/react/24/solid";
 import { UserIcon } from "@heroicons/react/24/solid";
-import Link from "next/Link";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const LeftNav = ({ children, href }) => {
