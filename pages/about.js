@@ -28,7 +28,7 @@ export default function About() {
             <div className="flex items-center justify-center relative">
               <RightNav />
             </div>
-            <div className=" mx-20 flex flex-row mt-6 space-x-4 ">
+            <div className=" mx-20 flex md:flex-col lg:flex-row mt-6 space-x-4 ">
               <div className="flex flex-1 bg-black h-full">
                 <div className="flex flex-col w-full divide-y divide-dashed divide-neutral-500">
                   <div class="flex flex-row divide-x divide-dashed divide-neutral-500 h-full">
@@ -63,7 +63,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex flex-none ">
-                <div className="flex flex-col w-96 p-8">
+                <div className="flex flex-col lg:w-96 p-8">
                   <div className="font-bold text-2xl">What I do</div>
                   <div className="flex flex-row space-x-4 mt-2">
                     <div className=" space-y-8">

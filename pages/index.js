@@ -4,7 +4,7 @@ import { Button, Spacer, Card, Text } from "@nextui-org/react";
 export default function About() {
   return (
     <div className="container ">
-      <div className="flex bg-slate-100 flex-row w-screen h-screen mx-auto">
+      <div className="flex bg-slate-100 flex-col lg:flex-row w-screen h-screen mx-auto">
         <div className="flex flex-1 bg-white ">
           <div className="flex flex-col justify-center items-start p-36 space-y-2 ">
             <div className="text-2xl font-bold ">HI THERE!</div>
@@ -31,7 +31,7 @@ export default function About() {
           <div className="m-2 flex flex-col mt-20 w-full ">
        
       
-            <div className="flex items-center justify-center relative">
+            <div className="flex items-center justify-center lg:relative">
               <RightNav />
             </div>
        
